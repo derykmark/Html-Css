@@ -1,0 +1,31 @@
+/*h1 {
+  color: rgb(177, 0, 0);
+}*/
+.header {
+  background-color: #777;
+  text-align: center;/*alinhar o texto no centro*/
+  font-family: sans-serif;/*muda o formato da letra*/
+  height: 100vh;/*altura do header*//*vh = viwport higth- tamanho da altura da tela*//*tem tambem o viwport - width = largura da tela*/
+  display: flex;/*para abilitar outras regras, para isso ele é necessarioo*/
+  flex-flow: column;/*comum para ficar uma embaixo da outra*/
+  justify-content: center;/*vai agrupar todos os elementos no centro, verticalmente */
+  align-items: center;/*alinhas os itens horizontalmente*/
+}
+.title {
+  color: #fff;
+  text-transform: uppercase;/*transformar o texto em maiusculo*/
+  font-weight: normal;
+}
+.subtitle {
+  color: #fff;
+  font-weight: normal;
+}
+.button {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;/*preenchimento da altura e largura do sombreado no texto do button*/
+  border-radius: 3px;
+  max-width: 40vw;
+}
